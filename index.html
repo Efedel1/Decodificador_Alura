@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador/Desencriptador</title>
+</head>
+<body>
+    <div class="container">
+        <label for="texto">Texto:</label>
+        <textarea id="texto" rows="4" cols="50"></textarea>
+
+        <label for="opcion">Operación:</label>
+        <select id="opcion">
+            <option value="encriptar">Encriptar</option>
+            <option value="desencriptar">Desencriptar</option>
+        </select>
+
+        <button onclick="procesar()">Procesar</button>
+
+        <label for="resultado">Resultado:</label>
+        <textarea id="resultado" rows="4" cols="50" readonly></textarea>
+
+        <button onclick="copiarResultado()">Copiar al portapapeles</button>
+    </div>
+
+    <script src="app.js"></script>
+
+    <footer>
+        <p>Desarrollado por Daniel Armando Samara Pérez en colaboración con mi-mismo 2024</p>
+    </footer>
+
+</body>
+</html>
+
+
